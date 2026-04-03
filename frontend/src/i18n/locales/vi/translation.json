@@ -1,0 +1,140 @@
+{
+  "appTitle": "Hệ thống đặt phòng khách sạn",
+  "language": "Ngôn ngữ",
+  "app": {
+    "title": "Hệ thống đặt phòng khách sạn",
+    "shortTitle": "QLKS"
+  },
+  "menu": {
+    "home": "Trang chủ",
+    "login": "Đăng nhập",
+    "logout": "Đăng xuất",
+    "register": "Đăng ký",
+    "dashboard": "Bảng điều khiển",
+    "bookingHistory": "Lịch sử đặt phòng",
+    "ownerDashboard": "Bảng điều khiển chủ khách sạn",
+    "adminDashboard": "Bảng điều khiển quản trị",
+    "users": "Người dùng",
+    "hotels": "Khách sạn",
+    "rooms": "Phòng",
+    "search": "Tìm phòng",
+    "ownerBookings": "Đặt phòng (chủ KS)"
+  },
+  "search": {
+    "title": "Tìm phòng trống",
+    "checkIn": "Nhận phòng",
+    "checkOut": "Trả phòng",
+    "guests": "Số khách",
+    "hotelIdOptional": "Mã khách sạn (tuỳ chọn)",
+    "submit": "Tìm kiếm",
+    "results": "Kết quả",
+    "price": "Giá/đêm",
+    "book": "Đặt"
+  },
+  "owner": {
+    "bookingsTitle": "Đặt phòng khách sạn của bạn",
+    "approve": "Duyệt",
+    "reject": "Từ chối"
+  },
+  "payment": {
+    "title": "Thanh toán (mô phỏng)",
+    "amount": "Số tiền",
+    "status": "Trạng thái",
+    "mockHint": "Chọn kết quả thanh toán giả lập.",
+    "success": "Thanh toán thành công",
+    "fail": "Thanh toán thất bại"
+  },
+  "auth": {
+    "loginTitle": "Đăng nhập",
+    "registerTitle": "Đăng ký tài khoản",
+    "username": "Tên đăng nhập",
+    "password": "Mật khẩu",
+    "email": "Email",
+    "role": "Vai trò",
+    "submitLogin": "Đăng nhập",
+    "submitRegister": "Đăng ký",
+    "roleUser": "Khách (USER)",
+    "roleOwner": "Chủ khách sạn (OWNER)",
+    "alreadyHaveAccount": "Đã có tài khoản?",
+    "noAccount": "Chưa có tài khoản?"
+  },
+  "home": {
+    "heroTitle": "Đặt phòng khách sạn dễ dàng",
+    "heroSubtitle": "Quản lý khách sạn, phòng và đặt chỗ trên một nền tảng.",
+    "ctaLogin": "Đăng nhập để tiếp tục",
+    "ctaRegister": "Tạo tài khoản"
+  },
+  "dashboard": {
+    "title": "Bảng điều khiển",
+    "welcome": "Xin chào, {{name}}",
+    "roleLabel": "Vai trò của bạn",
+    "hintUser": "Xem lịch sử đặt phòng trong mục tương ứng.",
+    "hintOwner": "Quản lý khách sạn và phòng của bạn.",
+    "hintAdmin": "Bạn có quyền quản trị toàn hệ thống."
+  },
+  "booking": {
+    "historyTitle": "Lịch sử đặt phòng",
+    "empty": "Chưa có đặt phòng nào.",
+    "status": "Trạng thái",
+    "startDate": "Ngày nhận phòng",
+    "endDate": "Ngày trả phòng",
+    "roomId": "Mã phòng",
+    "bookingId": "Mã đặt phòng",
+    "userId": "Mã người dùng",
+    "missingContext": "Thiếu thông tin đặt phòng. Vui lòng tìm phòng lại.",
+    "confirmTitle": "Xác nhận đặt phòng",
+    "confirmSubmit": "Tạo đặt phòng",
+    "cancel": "Hủy đặt phòng"
+  },
+  "admin": {
+    "usersTitle": "Quản lý người dùng",
+    "colId": "ID",
+    "colUsername": "Tên đăng nhập",
+    "colEmail": "Email",
+    "colRole": "Vai trò",
+    "colActive": "Hoạt động",
+    "yes": "Có",
+    "no": "Không",
+    "emptyList": "Chưa có người dùng nào."
+  },
+  "hotel": {
+    "listTitle": "Danh sách khách sạn",
+    "name": "Tên khách sạn",
+    "address": "Địa chỉ",
+    "ownerId": "Mã chủ sở hữu",
+    "createTitle": "Thêm khách sạn",
+    "createSubmit": "Tạo khách sạn",
+    "empty": "Chưa có khách sạn."
+  },
+  "room": {
+    "listTitle": "Danh sách phòng",
+    "name": "Tên phòng",
+    "type": "Loại phòng",
+    "price": "Giá",
+    "hotelId": "Mã khách sạn",
+    "roomTypeId": "Mã loại phòng",
+    "maxGuests": "Số khách tối đa (tuỳ chọn)",
+    "createTitle": "Thêm phòng",
+    "createSubmit": "Tạo phòng",
+    "empty": "Chưa có phòng."
+  },
+  "common": {
+    "loading": "Đang tải...",
+    "error": "Lỗi",
+    "save": "Lưu",
+    "cancel": "Hủy",
+    "actions": "Thao tác",
+    "back": "Quay lại",
+    "forbidden": "Bạn không có quyền truy cập trang này.",
+    "required": "Bắt buộc"
+  },
+  "notFound": {
+    "title": "Không tìm thấy trang",
+    "backHome": "Về trang chủ"
+  },
+  "errors": {
+    "loginFailed": "Đăng nhập thất bại. Kiểm tra lại thông tin.",
+    "registerFailed": "Đăng ký thất bại.",
+    "loadFailed": "Không tải được dữ liệu."
+  }
+}

@@ -1,0 +1,140 @@
+{
+  "appTitle": "Hotel Booking System",
+  "language": "Language",
+  "app": {
+    "title": "Hotel Booking System",
+    "shortTitle": "QLKS"
+  },
+  "menu": {
+    "home": "Home",
+    "login": "Login",
+    "logout": "Logout",
+    "register": "Register",
+    "dashboard": "Dashboard",
+    "bookingHistory": "Booking history",
+    "ownerDashboard": "Hotel owner dashboard",
+    "adminDashboard": "Admin dashboard",
+    "users": "Users",
+    "hotels": "Hotels",
+    "rooms": "Rooms",
+    "search": "Search rooms",
+    "ownerBookings": "Bookings (owner)"
+  },
+  "search": {
+    "title": "Search available rooms",
+    "checkIn": "Check-in",
+    "checkOut": "Check-out",
+    "guests": "Guests",
+    "hotelIdOptional": "Hotel ID (optional)",
+    "submit": "Search",
+    "results": "Results",
+    "price": "Price/night",
+    "book": "Book"
+  },
+  "owner": {
+    "bookingsTitle": "Your hotel bookings",
+    "approve": "Approve",
+    "reject": "Reject"
+  },
+  "payment": {
+    "title": "Payment (mock)",
+    "amount": "Amount",
+    "status": "Status",
+    "mockHint": "Choose a mock payment outcome.",
+    "success": "Pay success",
+    "fail": "Pay fail"
+  },
+  "auth": {
+    "loginTitle": "Login",
+    "registerTitle": "Create account",
+    "username": "Username",
+    "password": "Password",
+    "email": "Email",
+    "role": "Role",
+    "submitLogin": "Sign in",
+    "submitRegister": "Sign up",
+    "roleUser": "Guest (USER)",
+    "roleOwner": "Hotel owner (OWNER)",
+    "alreadyHaveAccount": "Already have an account?",
+    "noAccount": "No account yet?"
+  },
+  "home": {
+    "heroTitle": "Book hotel rooms with ease",
+    "heroSubtitle": "Manage hotels, rooms, and reservations in one place.",
+    "ctaLogin": "Sign in to continue",
+    "ctaRegister": "Create an account"
+  },
+  "dashboard": {
+    "title": "Dashboard",
+    "welcome": "Hello, {{name}}",
+    "roleLabel": "Your role",
+    "hintUser": "View your booking history from the menu.",
+    "hintOwner": "Manage your hotels and rooms.",
+    "hintAdmin": "You have full administrative access."
+  },
+  "booking": {
+    "historyTitle": "Booking history",
+    "empty": "No bookings yet.",
+    "status": "Status",
+    "startDate": "Check-in",
+    "endDate": "Check-out",
+    "roomId": "Room ID",
+    "bookingId": "Booking ID",
+    "userId": "User ID",
+    "missingContext": "Missing booking context. Please search again.",
+    "confirmTitle": "Confirm booking",
+    "confirmSubmit": "Create booking",
+    "cancel": "Cancel booking"
+  },
+  "admin": {
+    "usersTitle": "User management",
+    "colId": "ID",
+    "colUsername": "Username",
+    "colEmail": "Email",
+    "colRole": "Role",
+    "colActive": "Active",
+    "yes": "Yes",
+    "no": "No",
+    "emptyList": "No users yet."
+  },
+  "hotel": {
+    "listTitle": "Hotels",
+    "name": "Hotel name",
+    "address": "Address",
+    "ownerId": "Owner ID",
+    "createTitle": "Add hotel",
+    "createSubmit": "Create hotel",
+    "empty": "No hotels yet."
+  },
+  "room": {
+    "listTitle": "Rooms",
+    "name": "Room name",
+    "type": "Room type",
+    "price": "Price",
+    "hotelId": "Hotel ID",
+    "roomTypeId": "Room type ID",
+    "maxGuests": "Max guests (optional)",
+    "createTitle": "Add room",
+    "createSubmit": "Create room",
+    "empty": "No rooms yet."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "save": "Save",
+    "cancel": "Cancel",
+    "actions": "Actions",
+    "back": "Back",
+    "forbidden": "You do not have access to this page.",
+    "required": "Required"
+  },
+  "notFound": {
+    "title": "Page not found",
+    "backHome": "Back to home"
+  },
+  "errors": {
+    "loginFailed": "Login failed. Check your credentials.",
+    "registerFailed": "Registration failed.",
+    "loadFailed": "Could not load data."
+  }
+}
